@@ -1,7 +1,8 @@
-import React, {PropTypes} from 'react';
+import React, { PropTypes } from 'react';
+import { Header } from './index';
 
 const App = ({children})=> <section>
-  <h1>Mi super header</h1>
+  <Header />
   {children}
 </section>;
 
